@@ -26,66 +26,77 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 ---
 
 ## 📑 Surveys  
+### Surveys  
 - **A Survey on Large Language Models in Medicine**, *arXiv, 2024*.  
   [[Paper](https://arxiv.org/abs/2406.XXXX)]  
 
 ---
 
 ## 🧠 Reasoning  
+### Reasoning  
 - **MedGPT-R**: *Enhancing Medical Reasoning in LLMs*, *NeurIPS 2024*.  
   [[Paper](https://arxiv.org/abs/2406.XXXX)] [[Website](https://medgpt.org)]  
 
 ---
 
 ## 🏥 Clinical Planning  
+### Clinical Planning  
 - **LLM-Clinical**: *Large Language Models for Clinical Decision Support*, *JAMA AI, 2024*.  
   [[Paper](https://arxiv.org/abs/2406.XXXX)] [[Code](https://github.com/LLM-Clinical)]  
 
 ---
 
 ## 🖼️ Medical Imaging & Multimodal Analysis  
+### Medical Imaging & Multimodal Analysis  
 - **MedVLM**: *Vision-Language Models for Radiology Reports*, *MICCAI, 2024*.  
   [[Paper](https://arxiv.org/abs/2406.XXXX)] [[Code](https://github.com/MedVLM)]  
 
 ---
 
 ## 📜 Medical Text Processing  
+### Medical Text Processing  
 - **EHR-GPT**: *Using LLMs for Electronic Health Record Analysis*, *AAAI, 2024*.  
   [[Paper](https://arxiv.org/abs/2406.XXXX)] [[Code](https://github.com/EHR-GPT)]  
 
 ---
 
 ## 💊 Drug Discovery & Biomedical Research  
+### Drug Discovery & Biomedical Research  
 - **BioGPT**: *A Transformer Model for Biomedical Text Mining*, *Nature Bioinformatics, 2024*.  
   [[Paper](https://arxiv.org/abs/2406.XXXX)] [[Code](https://github.com/microsoft/BioGPT)]  
 
 ---
 
 ## 🏗️ Simulation & Digital Twin  
+### Simulation & Digital Twin  
 - **MedTwin**: *Digital Twin Modeling for Personalized Medicine*, *AI4Health, 2024*.  
   [[Paper](https://arxiv.org/abs/2406.XXXX)]  
 
 ---
 
 ## ⚠️ Safety, Bias, and Adversarial Testing  
+### Safety, Bias, and Adversarial Testing  
 - **AI Ethics in Medicine**: *Assessing Bias and Safety in Medical LLMs*, *arXiv, 2024*.  
   [[Paper](https://arxiv.org/abs/2406.XXXX)]  
 
 ---
 
 ## 📊 Datasets & Benchmarks  
+### Datasets & Benchmarks  
 - **MedQA**: *A Benchmark for LLMs in Medicine*, *arXiv, 2024*.  
   [[Paper](https://arxiv.org/abs/2406.XXXX)] [[Website](https://medqa-benchmark.org)]  
 
 ---
 
 ## 💾 Codes & Implementations  
+### Codes & Implementations  
 - **OpenMed-LLM**: *An Open-Source Medical LLM*, *GitHub Repository, 2024*.  
   [[Code](https://github.com/OpenMed-LLM)]  
 
 ---
 
 ## 📌 Citation  
+### Citation  
 If you find this repository useful, please consider citing this list:  
 
 ```bibtex
