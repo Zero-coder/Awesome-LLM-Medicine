@@ -1,103 +1,94 @@
-\documentclass{article}
-\usepackage[a4paper,margin=1in]{geometry}
-\usepackage{hyperref}
-\usepackage{enumitem}
+# Awesome-Medicine-MLLM [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-\title{Awesome-Medicine-MLLM}
-\author{A Comprehensive List of Papers Using Large Language/Multi-Modal Models for Medical Scenarios}
-\date{\today}
+This repo contains a curated list of **papers using Large Language Models (LLMs) and Multi-Modal Models (MLLMs) for Medicine and Healthcare**.  
+Template adapted from [awesome-Implicit-NeRF-Robotics](https://github.com/zubair-irshad/Awesome-Implicit-NeRF-Robotics).  
 
-\begin{document}
+#### Please feel free to send me [pull requests] or [email](mailto:jiangmaowei@sia.cn) to add papers!  
 
-\maketitle
+If you find this repository useful, please consider [citing](#citation) and STARing this list. Feel free to share it with others!  
 
-\section*{Introduction}
-This repository contains a curated list of \textbf{papers using Large Language Models (LLMs) and Multi-Modal Models (MLLMs) for Medicine and Healthcare}. 
-Template adapted from \href{https://github.com/zubair-irshad/Awesome-Implicit-NeRF-Robotics}{awesome-Implicit-NeRF-Robotics}. \\
+---
 
-\textbf{Please feel free to send me} \href{mailto:jiangmaowei@sia.cn}{email} \textbf{or pull requests to add papers!} \\
+## 📌 Overview  
 
-If you find this repository useful, please consider \href{#citation}{citing} and starring this list. Feel free to share it with others!
+- [Surveys](#surveys)  
+- [Reasoning](#reasoning)  
+- [Clinical Planning](#clinical-planning)  
+- [Medical Imaging & Multimodal Analysis](#medical-imaging--multimodal-analysis)  
+- [Medical Text Processing](#medical-text-processing)  
+- [Drug Discovery & Biomedical Research](#drug-discovery--biomedical-research)  
+- [Simulation & Digital Twin](#simulation--digital-twin)  
+- [Safety, Bias, and Adversarial Testing](#safety-bias-and-adversarial-testing)  
+- [Datasets & Benchmarks](#datasets--benchmarks)  
+- [Codes & Implementations](#codes--implementations)  
+- [Citation](#citation)  
 
-\section*{Overview}
-\begin{itemize}
-    \item \hyperref[sec:surveys]{Surveys}
-    \item \hyperref[sec:reasoning]{Reasoning}
-    \item \hyperref[sec:planning]{Clinical Planning}
-    \item \hyperref[sec:medical-imaging]{Medical Imaging \& Multimodal Analysis}
-    \item \hyperref[sec:medical-text]{Medical Text Processing}
-    \item \hyperref[sec:drug-discovery]{Drug Discovery \& Biomedical Research}
-    \item \hyperref[sec:simulation]{Simulation \& Digital Twin}
-    \item \hyperref[sec:safety]{Safety, Bias, and Adversarial Testing}
-    \item \hyperref[sec:datasets]{Datasets \& Benchmarks}
-    \item \hyperref[sec:code]{Codes \& Implementations}
-    \item \hyperref[sec:citation]{Citation}
-\end{itemize}
+---
 
-\section*{Surveys} \label{sec:surveys}
-\begin{itemize}
-    \item "A Survey on Large Language Models in Medicine", *arXiv, 2024*. 
-    \href{https://arxiv.org/abs/2406.XXXX}{[Paper]}
-\end{itemize}
+## 📑 Surveys  
+- **A Survey on Large Language Models in Medicine**, *arXiv, 2024*.  
+  [[Paper](https://arxiv.org/abs/2406.XXXX)]  
 
-\section*{Reasoning} \label{sec:reasoning}
-\begin{itemize}
-    \item **MedGPT-R**: "Enhancing Medical Reasoning in LLMs", *NeurIPS 2024*.  
-    \href{https://arxiv.org/abs/2406.XXXX}{[Paper]} \href{https://medgpt.org}{[Website]}
-\end{itemize}
+---
 
-\section*{Clinical Planning} \label{sec:planning}
-\begin{itemize}
-    \item **LLM-Clinical**: "Large Language Models for Clinical Decision Support", *JAMA AI, 2024*.  
-    \href{https://arxiv.org/abs/2406.XXXX}{[Paper]} \href{https://github.com/LLM-Clinical}{[Code]}
-\end{itemize}
+## 🧠 Reasoning  
+- **MedGPT-R**: *Enhancing Medical Reasoning in LLMs*, *NeurIPS 2024*.  
+  [[Paper](https://arxiv.org/abs/2406.XXXX)] [[Website](https://medgpt.org)]  
 
-\section*{Medical Imaging \& Multimodal Analysis} \label{sec:medical-imaging}
-\begin{itemize}
-    \item **MedVLM**: "Vision-Language Models for Radiology Reports", *MICCAI, 2024*.  
-    \href{https://arxiv.org/abs/2406.XXXX}{[Paper]} \href{https://github.com/MedVLM}{[Code]}
-\end{itemize}
+---
 
-\section*{Medical Text Processing} \label{sec:medical-text}
-\begin{itemize}
-    \item **EHR-GPT**: "Using LLMs for Electronic Health Record Analysis", *AAAI, 2024*.  
-    \href{https://arxiv.org/abs/2406.XXXX}{[Paper]} \href{https://github.com/EHR-GPT}{[Code]}
-\end{itemize}
+## 🏥 Clinical Planning  
+- **LLM-Clinical**: *Large Language Models for Clinical Decision Support*, *JAMA AI, 2024*.  
+  [[Paper](https://arxiv.org/abs/2406.XXXX)] [[Code](https://github.com/LLM-Clinical)]  
 
-\section*{Drug Discovery \& Biomedical Research} \label{sec:drug-discovery}
-\begin{itemize}
-    \item **BioGPT**: "A Transformer Model for Biomedical Text Mining", *Nature Bioinformatics, 2024*.  
-    \href{https://arxiv.org/abs/2406.XXXX}{[Paper]} \href{https://github.com/microsoft/BioGPT}{[Code]}
-\end{itemize}
+---
 
-\section*{Simulation \& Digital Twin} \label{sec:simulation}
-\begin{itemize}
-    \item **MedTwin**: "Digital Twin Modeling for Personalized Medicine", *AI4Health, 2024*.  
-    \href{https://arxiv.org/abs/2406.XXXX}{[Paper]}
-\end{itemize}
+## 🖼️ Medical Imaging & Multimodal Analysis  
+- **MedVLM**: *Vision-Language Models for Radiology Reports*, *MICCAI, 2024*.  
+  [[Paper](https://arxiv.org/abs/2406.XXXX)] [[Code](https://github.com/MedVLM)]  
 
-\section*{Safety, Bias, and Adversarial Testing} \label{sec:safety}
-\begin{itemize}
-    \item **AI Ethics in Medicine**: "Assessing Bias and Safety in Medical LLMs", *arXiv, 2024*.  
-    \href{https://arxiv.org/abs/2406.XXXX}{[Paper]}
-\end{itemize}
+---
 
-\section*{Datasets \& Benchmarks} \label{sec:datasets}
-\begin{itemize}
-    \item **MedQA**: "A Benchmark for LLMs in Medicine", *arXiv, 2024*.  
-    \href{https://arxiv.org/abs/2406.XXXX}{[Paper]} \href{https://medqa-benchmark.org}{[Website]}
-\end{itemize}
+## 📜 Medical Text Processing  
+- **EHR-GPT**: *Using LLMs for Electronic Health Record Analysis*, *AAAI, 2024*.  
+  [[Paper](https://arxiv.org/abs/2406.XXXX)] [[Code](https://github.com/EHR-GPT)]  
 
-\section*{Codes \& Implementations} \label{sec:code}
-\begin{itemize}
-    \item **OpenMed-LLM**: "An Open-Source Medical LLM", *GitHub Repository, 2024*.  
-    \href{https://github.com/OpenMed-LLM}{[Code]}
-\end{itemize}
+---
 
-\section*{Citation} \label{sec:citation}
-If you find this repository useful, please consider citing this list:
+## 💊 Drug Discovery & Biomedical Research  
+- **BioGPT**: *A Transformer Model for Biomedical Text Mining*, *Nature Bioinformatics, 2024*.  
+  [[Paper](https://arxiv.org/abs/2406.XXXX)] [[Code](https://github.com/microsoft/BioGPT)]  
 
-\begin{verbatim}
+---
+
+## 🏗️ Simulation & Digital Twin  
+- **MedTwin**: *Digital Twin Modeling for Personalized Medicine*, *AI4Health, 2024*.  
+  [[Paper](https://arxiv.org/abs/2406.XXXX)]  
+
+---
+
+## ⚠️ Safety, Bias, and Adversarial Testing  
+- **AI Ethics in Medicine**: *Assessing Bias and Safety in Medical LLMs*, *arXiv, 2024*.  
+  [[Paper](https://arxiv.org/abs/2406.XXXX)]  
+
+---
+
+## 📊 Datasets & Benchmarks  
+- **MedQA**: *A Benchmark for LLMs in Medicine*, *arXiv, 2024*.  
+  [[Paper](https://arxiv.org/abs/2406.XXXX)] [[Website](https://medqa-benchmark.org)]  
+
+---
+
+## 💾 Codes & Implementations  
+- **OpenMed-LLM**: *An Open-Source Medical LLM*, *GitHub Repository, 2024*.  
+  [[Code](https://github.com/OpenMed-LLM)]  
+
+---
+
+## 📌 Citation  
+If you find this repository useful, please consider citing this list:  
+
+```bibtex
 @misc{medicine2024mllm,
     title = {Awesome-Medicine-MLLM},
     author = {Your Name},
@@ -105,6 +96,3 @@ If you find this repository useful, please consider citing this list:
     url = {https://github.com/YourRepo/Awesome-Medicine-MLLM},
     year = {2024},
 }
-\end{verbatim}
-
-\end{document}
